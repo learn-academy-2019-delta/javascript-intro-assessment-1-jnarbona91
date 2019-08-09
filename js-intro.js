@@ -10,16 +10,16 @@ var arr = mantra.charAt(0)
 // 1a. Write the code that returns 'B' from mantra.
 console.log(arr)
 // 1b. Write the code that determines if there is an 'x' in mantra.
-function let(){
+function let(arr){
     if(arr.includes("x")){
         return "true"
     }else{
         return "false"
     }
 }
-console.log(let(arr))
+console.log(let(mantra))
 // 1c. Write the code that determines if there is a 'v' in mantra.
-function lett(){
+function lett(arr){
     if(arr.includes("v")){
         return "true"
     }else{
@@ -27,7 +27,7 @@ function lett(){
     }
 }
 
-console.log(lett(arr))
+console.log(lett(mantra))
 // 1d. Stretch: Write a function that can take any letter as an argument and returns if it exists within the given string.
 
 
